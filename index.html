@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" class="transition-all duration-1000 ease-in-out">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-none dark:bg-black dark:text-white">
+  <!-- NAVBAR -->
+  <nav class="container relative mx-auto p-6">
+    <div class="flex items-center justify-between">
+      <div class="pt-2">
+        <img src="images/logo.svg" alt="">
+      </div>
+      <div class="hidden md:flex space-x-6">
+        <a href="" class="hover:text-red-700">Pricing</a>
+        <a href="" class="hover:text-red-700">About Us</a>
+        <a href="" class="hover:text-red-700">Careers</a>
+        <a href="" class="hover:text-red-700">Product</a>
+        <a href="" class="hover:text-red-700">Community</a>
+      </div>
+      <a href="" class="hidden md:block bg-red-500 p-3 rounded-xl text-white hover:bg-red-400 dark:bg-red-700">
+        Get Started
+      </a>
+      <button class="bg-gray-300 p-2 border-0 shadow-sm rounded-full cursor-pointer">
+        <svg id="theme" class="shadow-2xl" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="currentColor"><path fill-rule="evenodd" d="M22 12c0 5.523-4.477 10-10 10a9.986 9.986 0 0 1-3.321-.564A8.973 8.973 0 0 1 8 18a8.97 8.97 0 0 1 2.138-5.824A6.493 6.493 0 0 0 15.5 15a6.496 6.496 0 0 0 5.567-3.143c.24-.396.933-.32.933.143Z" clip-rule="evenodd" opacity=".5"/><path d="M2 12c0 4.359 2.789 8.066 6.679 9.435A8.973 8.973 0 0 1 8 18c0-2.221.805-4.255 2.138-5.824A6.47 6.47 0 0 1 9 8.5a6.496 6.496 0 0 1 3.143-5.567C12.54 2.693 12.463 2 12 2C6.477 2 2 6.477 2 12Z"/></g></svg>
+      </button>
+      <svg id="menubtn" class="md:hidden cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M4 7h3m13 0h-9m9 10h-3M4 17h9m-9-5h16"/></svg>
+    </div>
+  </nav>
+
+  <div id="menu" class="hidden flex flex-col bg-white container rounded-xl mx-auto max-w-sm justify-center items-center p-4 shadow-xl transition-all duration-900 ease-in-out dark:bg-gray-100 dark:text-black">
+    <a href="" class="hover:text-red-700 py-1">Pricing</a>
+    <a href="" class="hover:text-red-700 py-1">About Us</a>
+    <a href="" class="hover:text-red-700 py-1">Careers</a>
+    <a href="" class="hover:text-red-700 py-1">Product</a>
+    <a href="" class="hover:text-red-700 py-1">Community</a>
+    <a href="" class="bg-red-500 p-2 rounded-full text-white hover:bg-red-400 m-2">
+      Get Started
+    </a>
+  </div>
+
+  <!-- hero -->
+  <section id="hero">
+    <div class="container flex flex-col-reverse md:flex-row p-6 mx-auto mt-10 items-center">`
+      <div class="flex flex-col mb-32 space-y-8 md:w-1/2">
+        <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
+          Bring everyone together to build better product.
+        </h1>
+        <p class="max-w-sm text-center md:text-left text-gray-500">
+          Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view
+        </p>
+        <div class="flex justify-center md:justify-start">
+          <a href="" class="text-center bg-red-500 p-3 rounded-full text-white hover:bg-red-400 dark:bg-red-700">
+            Get Started
+          </a>
+        </div>
+      </div>
+      <div class="md:w-1/2">
+        <img src="images/illustration-intro.svg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- features -->
+  <section id="features">
+    <div class="flex container flex-col mx-auto px-6 mt-10 space-y-8 md:space-y-0 md:flex-row">
+      <div class="flex flex-col md:w-1/2 space-y-8">
+        <h2 class="max-w-md text-4xl font-bold text-center md:text-left">What's different about Manage?</h2>
+        <p class="max-w-dm text-center md:text-left text-gray-500">
+          Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for digital product teams.
+        </p>
+      </div>
+
+      <div class="container flex flex-col space-y-8 md:w-1/2">
+        <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+          <div class="rounded-l-full bg-red-200 md:bg-transparent">
+            <div class="flex items-center space-x-2">
+              <div class="px-4 py-2 text-white rounded-full bg-red-600 md:py-1">
+                01
+              </div>
+              <h3 class="text-base font-bold md:mb-4 md:hidden dark:text-black">
+                Track company-wide progress.
+              </h3>
+            </div>
+          </div>
+  
+          <div>
+            <h3 class="hidden mb-4 text-lg font-bold md:block">
+              Track company-wide progress
+            </h3>
+            <p class="text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia ab dolore ex ipsam nostrum porro expedita velit magnam et sunt tempore, unde assumenda praesentium dolor obcaecati qui, explicabo, quasi veritatis.</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+          <div class="rounded-l-full bg-red-200 md:bg-transparent">
+            <div class="flex items-center space-x-2">
+              <div class="px-4 py-2 text-white rounded-full bg-red-600 md:py-1">
+                02
+              </div>
+              <h3 class="dark:text-black text-base font-bold md:mb-4 md:hidden">
+                Speed.
+              </h3>
+            </div>
+          </div>
+  
+          <div>
+            <h3 class="hidden mb-4 text-lg font-bold md:block">
+                Speed.
+            </h3>
+            <p class="text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia ab dolore ex ipsam nostrum porro expedita velit magnam et sunt tempore, unde assumenda praesentium dolor obcaecati qui, explicabo, quasi veritatis.</p>
+          </div>
+        </div>
+      </div>
+    </div>   
+  </section>
+
+  <section id="testimonials">
+    <div class="mx-auto p-6 max-w-6xl text-center mt-20">
+      <h2 class="text-4xl font-bold text-center">What's different about Manage?</h2>
+      <div class="flex flex-col mt-10 md:flex-row space-x-6">
+        <div class="flex flex-col items-center shadow-lg p-6 space-y-6 rounded-lg bg-gray-100 md:w-1/3  dark:bg-transparent dark:text-black">
+          <img src="images/avatar-ali.png" alt="" class="w-16">
+          <h5 class="text-lg-font-bold dark:text-white">Anisha Li</h5>
+          <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero magnam cum nam sint beatae laudantium officiis iste officia quisquam repudiandae?</p>
+        </div>
+        <div class="flex flex-col items-center shadow-lg p-6 space-y-6 rounded-lg bg-gray-100 md:w-1/3  dark:bg-transparent dark:text-black">
+          <img src="images/avatar-anisha.png" alt="" class="w-16">
+          <h5 class="text-lg-font-bold dark:text-white">ALi Bee</h5>
+          <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero magnam cum nam sint beatae laudantium officiis iste officia quisquam repudiandae?</p>
+        </div>
+        <div class="flex flex-col items-center shadow-lg p-6 space-y-6 rounded-lg bg-gray-100 md:w-1/3  dark:bg-transparent dark:text-black">
+          <img src="images/avatar-richard.png" alt="" class="w-16">
+          <h5 class="text-lg-font-bold dark:text-white">Richard Bezos</h5>
+          <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero magnam cum nam sint beatae laudantium officiis iste officia quisquam repudiandae?</p>
+        </div>
+      </div>
+      <div class="flex justify-center mt-5">
+        <a href="" class=" bg-red-600 p-3 rounded-full text-white hover:bg-transparent hover:border-2 hover:border-red-700 transition-all duration-300 hover:text-gray-900">
+          Get Started
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-red-600">
+    <div class="container px-6 py-10 flex flex-col-reverse justify-between mx-auto space-y-8 md:flex-row md:space-y-0">
+      <div class="flex flex-col-reverse justify-between space-y-12 md:flex-row md:space-y-0 md:items-start md:space-x-12">
+        <div class="flex flex-col-reverse space-y-8 items-center md:flex-col">
+          <div>
+            <img src="images/logo.svg" alt="" class="h-8">
+          </div>
+          <div class="flex justify-center space-x-4 sm:pb-8">
+            <a href="">
+              <img src="images/icon-facebook.svg" class="h-8" alt="">
+            </a>
+            <a href="">
+              <img src="images/icon-twitter.svg" class="h-8" alt="">
+            </a>
+            <a href="">
+              <img src="images/icon-instagram.svg" class="h-8" alt="">
+            </a>
+            <a href="">
+              <img src="images/icon-pinterest.svg" class="h-8" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="flex justify-around space-x-32 sm:space-x-14">
+          <div class="flex flex-col space-y-5 text-white">
+            <a href="">Home</a>
+            <a href="">Pricing</a>
+            <a href="">Products</a>
+            <a href="">About</a>
+          </div>
+          <div class="flex flex-col space-y-5 text-white">
+            <a href="">Careers</a>
+            <a href="">Community</a>
+            <a href="">Privacy</a>
+          </div>
+        </div>
+
+        <div class="flex flex-col justify-between md:flex-row">
+          <div class="flex space-x-3">
+            <input type="text" class="p-4 rounded-full focus:outline-none" placeholder="Let's stay in touch">
+            <button class="text-white px-6 py-2 rounded-full bg-red-500 hover:bg-red-300">Go</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
